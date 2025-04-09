@@ -13,7 +13,7 @@ Includes a responsive header, hero, about section, and footer.
 (Add screenshot here if needed)
 
 ## 🔗 Live Link:
-(Will be updated after GitHub Pages setup)
+https://abhishek91k.github.io/Responsive_Layout_Day1/
 
 ---
 
