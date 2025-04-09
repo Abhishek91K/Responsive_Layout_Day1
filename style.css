@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2f2b2b;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+nav{
+    width: 90vw;
+    justify-content: space-between;
+    background-color: #9913ab;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22vw;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 15px 5px;
+}
+
+nav button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5a0778;
+    color: #f2ebeb;
+}
+
+.hero{
+    height: 30vh;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40vw;
+    margin: 25px auto;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.hero button{
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.section{
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 75vw;
+    height: 53vh;
+    color: white;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.descrip{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer{
+    height: 10vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #413e3e;
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    /* body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+    } */
+
+    nav ul{
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .image, .image img, .hero{
+        width: 90%;
+        max-width: 100%;
+
+        /*by AI - ChatGPT*/
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .section, nav {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+    }
+}
