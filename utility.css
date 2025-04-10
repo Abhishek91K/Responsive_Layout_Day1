@@ -1,0 +1,22 @@
+.flex-content {
+    display: flex;
+    align-items: center;
+}
+
+.text-col {
+    color: white;
+}
+
+.btn{
+    color: #f2ebeb;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .btn {
+        padding: 5px;
+    }
+}

@@ -7,32 +7,24 @@ body{
     background-color: #2f2b2b;
 }
 
-.flex{
-    display: flex;
-    align-items: center;
-}
-
 header{
     position: sticky;
     top: 0px;
 }
 
 nav{
-    width: 90vw;
+    width: 90%;
     justify-content: space-between;
     background-color: #9913ab;
-    color: white;
     font-weight: 500;
     font-size: 16px;
     padding: 0px 15px;
-    margin: auto;
+    margin: auto;/*to align nav to center of webpage*/
 }
 
 nav > ul{
-    display: flex;
     justify-content: space-around;
-    align-items: center;
-    width: 22vw;
+    width: auto; /*for better appearance & clarity*/
 }
 
 nav ul li{
@@ -42,10 +34,13 @@ nav ul li{
 
 nav button{
     padding: 10px;
-    border-radius: 5px;
-    border: none;
     background-color: #5a0778;
-    color: #f2ebeb;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
 }
 
 .hero{
@@ -53,29 +48,28 @@ nav button{
     text-align: center;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 40vw;
+    width: 90%;
+    max-width: 700px;
     margin: 25px auto;
-    color: white;
     border: 1px solid white;
     border-radius: 10px;
 }
 
 .hero button{
     padding: 10px 20px;
-    border: 1px solid black;
-    border-radius: 5px;
+    color: black;
 }
 
 .section{
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-between;
     width: 75vw;
-    height: 53vh;
-    color: white;
-    margin: 10px auto;
-    padding: 20px;
+    height: auto;
+    margin: 20px auto;
+    /*DRY CSS -- GPT*/
+    padding: 10px;
     border: 1px solid white;
     border-radius: 10px;
+    gap: 10px;
 }
 
 .descrip{
@@ -88,38 +82,28 @@ footer{
     height: 10vh;
     flex-direction: column;
     justify-content: space-evenly;
-    color: white;
     background-color: #413e3e;
     width: 100%;
 }
 
-@media screen and (max-width: 900px) {
-    /* body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 25px;
-    } */
+h2{
+    text-decoration: underline;
+}
 
-    nav ul{
-        justify-content: center;
-        font-size: 14px;
+@media screen and (max-width: 900px) {
+    html{
+        font-size: 75%;
     }
 
-    .image, .image img, .hero{
+    .image img{
         width: 90%;
-        max-width: 100%;
-
         /*by AI - ChatGPT*/
         height: auto;
         border-radius: 10px;
     }
 
-    .section, nav {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 5px;
+    .section, nav{
+        flex-direction: column;
+        align-items: center;
     }
 }
