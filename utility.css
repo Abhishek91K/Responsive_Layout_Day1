@@ -14,6 +14,21 @@
     padding: 10px;
 }
 
+.bord-1 {
+    border: 1px solid white;
+}
+
+.border-rad {
+    border-radius: 10px;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.w-90{
+    width: 90%;
+}
 
 @media screen and (max-width: 900px) {
     .btn {
