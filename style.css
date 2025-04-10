@@ -18,7 +18,6 @@ nav{
     font-weight: 500;
     font-size: 16px;
     padding: 0px 15px;
-    margin: auto;/*to align nav to center of webpage*/
 }
 
 nav > ul{
@@ -36,17 +35,13 @@ nav button{
 }
 
 .container{
-    margin: auto;
     max-width: 1200px;
 }
 
 .hero{
-    height: 30vh;
-    text-align: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    max-width: 700px;
-    margin: 25px auto;
+    height: 20vh;
+    max-width: 600px;
+    align-items: center;
 }
 
 .hero button{
@@ -55,22 +50,10 @@ nav button{
 
 .section{
     justify-content: space-between;
-    height: 15rem;
-    margin: 20px auto;
-    /*DRY CSS -- GPT*/
-    gap: 10px;
-}
-
-.descrip{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
 footer{
     height: 10vh;
-    flex-direction: column;
-    justify-content: space-evenly;
     background-color: #413e3e;
     width: 100%;
 }
@@ -86,12 +69,5 @@ img{
 @media screen and (max-width: 900px) {
     html{
         font-size: 75%;
-    }
-
-    .section, nav{
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        height: auto;
     }
 }

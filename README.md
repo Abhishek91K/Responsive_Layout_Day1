@@ -18,7 +18,7 @@ Built as part of my **84-day web development challenge**, this responsive layout
 
 | Desktop View | Mobile View |
 |--------------|-------------|
-| ![Desktop](https://via.placeholder.com/400x200) | ![Mobile](https://via.placeholder.com/200x400) |
+| ![Desktop](https://github.com/user-attachments/assets/b55add8d-858a-41b8-83a2-70516d681883) | ![Mobile](https://github.com/user-attachments/assets/6f7f05c0-e4e2-4d24-84da-0609dbf513d6) |
 
 ## 🔗 Live Link:
 [View Website on GitHub Pages](https://abhishek91k.github.io/Responsive_Layout_Day1)
